@@ -28,6 +28,36 @@
             bindings = <&lt 0 LG(LS(NUMBER_4))>;
             key-positions = <2 3>;
         };
+
+        undo {
+            bindings = <&kp LG(Z)>;
+            key-positions = <25 26>;
+        };
+
+        copy {
+            bindings = <&kp LG(C)>;
+            key-positions = <27 26>;
+        };
+
+        cut {
+            bindings = <&kp LG(X)>;
+            key-positions = <25 27>;
+        };
+
+        paste {
+            bindings = <&kp LG(V)>;
+            key-positions = <29 27>;
+        };
+
+        select_all {
+            bindings = <&kp LG(A)>;
+            key-positions = <25 29>;
+        };
+
+        esc {
+            bindings = <&kp ESC>;
+            key-positions = <13 16>;
+        };
     };
 
     keymap {
