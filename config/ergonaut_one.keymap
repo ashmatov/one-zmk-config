@@ -48,7 +48,7 @@
         };
 
         paste {
-            bindings = <&kp LG(V)>;
+            bindings = <&kp LG(B)>;
             key-positions = <27 28>;
         };
 
