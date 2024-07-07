@@ -83,7 +83,7 @@
         };
 
         to_def {
-            bindings = <&to 0>;
+            bindings = <&to 4>;
             key-positions = <39 40 41>;
         };
     };
@@ -129,10 +129,10 @@
 
         col_layer {
             bindings = <
-&mt LGUI F1   &kp Q       &kp W        &kp F       &kp P            &kp B      &kp J      &kp L           &kp U       &kp Y        &kp SEMICOLON  &kp BACKSLASH
-&mt LCTRL F2  &mt LALT A  &mt LCTRL R  &mt LGUI S  &mt LSHFT T      &kp G      &kp M      &mt RSHFT N     &mt RGUI E  &mt RCTRL I  &mt RALT O     &mt RCTRL SLASH
-&mt LALT F3   &kp Z       &kp X        &kp C       &kp D            &kp V      &kp K      &kp H           &kp COMMA   &kp DOT      &kp QUESTION   &mt RALT PIPE
-                                       &lt 2 TAB   &mt LSHFT SPACE  &lt 1 RET  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
+&mt LGUI F1   &kp Q       &kp W        &kp F       &kp P            &kp B        &kp J      &kp L           &kp U       &kp Y        &kp SEMICOLON  &kp BACKSLASH
+&mt LCTRL F2  &mt LALT A  &mt LCTRL R  &mt LGUI S  &mt LSHFT T      &kp G        &kp M      &mt RSHFT N     &mt RGUI E  &mt RCTRL I  &mt RALT O     &mt RCTRL SLASH
+&mt LALT F3   &kp Z       &kp X        &kp C       &kp D            &kp V        &kp K      &kp H           &kp COMMA   &kp DOT      &kp QUESTION   &mt RALT PIPE
+                                       &lt 2 TAB   &mt LSHFT SPACE  &lt 1 GLOBE  &lt 1 ESC  &mt RSHFT BSPC  &lt 2 DEL
             >;
         };
     };
