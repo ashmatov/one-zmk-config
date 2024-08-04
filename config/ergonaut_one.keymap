@@ -83,19 +83,19 @@
 
         default_layer {
             bindings = <
-&mt LGUI F1   &kp Q       &kp W        &kp E       &kp R            &kp T               &kp Y      &kp U            &kp I              &kp O        &kp P          &kp BACKSLASH
-&mt LCTRL F2  &mt LALT A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F      &kp G               &kp H      &mt RSHFT J      &mt RGUI K         &mt RCTRL L  &mt RALT SEMI  &mt RCTRL SLASH
-&mt LALT F3   &kp Z       &kp X        &kp C       &kp V            &kp B               &kp N      &kp M            &kp F13            &kp F14      &kp F15        &mt RALT PIPE
-                                       &lt 2 TAB   &mt LSHFT SPACE  &lt 1 LA(QUESTION)  &lt 1 DOT  &mt RSHFT COMMA  &lt 2 EXCLAMATION
+&mt LGUI COLON       &kp Q       &kp W        &kp E       &kp R            &kp T           &kp Y      &kp U                &kp I              &kp O        &kp P         &kp BACKSLASH
+&mt LCTRL SEMICOLON  &mt LALT A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F      &kp G           &kp H      &mt RSHFT J          &mt RGUI K         &mt RCTRL L  &mt RALT F13  &mt RCTRL PIPE
+&mt LALT F1          &kp Z       &kp X        &kp C       &kp V            &kp B           &kp N      &kp M                &kp F14            &kp F15      &kp COMMA     &mt RALT SLASH
+                                              &lt 2 TAB   &mt LSHFT SPACE  &lt 1 QUESTION  &lt 1 DOT  &mt RSHFT BACKSPACE  &lt 2 EXCLAMATION
             >;
         };
 
         lower_layer {
             bindings = <
-&mt LGUI F4   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9     &kp NUMBER_0  &kp PLUS       &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp F7
-&mt LCTRL F5  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5  &kp EQUAL      &kp UNDERSCORE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE   &mt RCTRL F8
-&mt LALT F6   &kp DOLLAR    &kp AT_SIGN   &kp CARET     &kp EXCLAMATION  &kp PERCENT   &kp AMPERSAND  &kp ASTERISK    &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE          &kp HASH
-                                          &trans        &trans           &trans        &trans         &trans          &trans
+&mt LGUI AT_SIGN  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0  &kp PLUS       &kp MINUS         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOUBLE_QUOTES  &kp F16
+&mt LCTRL HASH    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp NUMBER_5  &kp EQUAL      &kp UNDERSCORE    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp SINGLE_QUOTE   &kp F17
+&mt LALT DOLLAR   &kp TILDE     &kp PERCENT   &kp CARET     &kp AMPERSAND  &kp ASTERISK  &kp LESS_THAN  &kp GREATER_THAN  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp GRAVE          &kp F18
+                                              &trans        &trans         &trans        &trans         &trans            &trans
             >;
         };
 
