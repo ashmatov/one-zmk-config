@@ -83,9 +83,9 @@
 
         default_layer {
             bindings = <
-&mt LGUI COLON       &kp Q       &kp W        &kp E       &kp R            &kp T           &kp Y      &kp U                &kp I              &kp O        &kp KP_SLASH          &kp BACKSLASH
-&mt LCTRL SEMICOLON  &mt LALT A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F      &kp G           &kp H      &mt RSHFT J          &mt RGUI K         &mt RCTRL L  &mt RALT KP_MULTIPLY  &mt RCTRL PIPE
-&mt LALT F1          &kp Z       &kp X        &kp C       &kp V            &kp B           &kp N      &kp M                &kp KP_MINUS       &kp KP_PLUS  &kp COMMA             &mt RALT SLASH
+&mt LGUI COLON       &kp Q       &kp W        &kp E       &kp R            &kp T           &kp Y      &kp U                &kp I              &kp O        &kp KP_N1       &kp BACKSLASH
+&mt LCTRL SEMICOLON  &mt LALT A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F      &kp G           &kp H      &mt RSHFT J          &mt RGUI K         &mt RCTRL L  &mt RALT KP_N2  &mt RCTRL PIPE
+&mt LALT F1          &kp Z       &kp X        &kp C       &kp V            &kp B           &kp N      &kp M                &kp KP_N3          &kp KP_N4    &kp COMMA       &mt RALT SLASH
                                               &lt 2 TAB   &mt LSHFT SPACE  &lt 1 QUESTION  &lt 1 DOT  &mt RSHFT BACKSPACE  &lt 2 EXCLAMATION
             >;
         };
