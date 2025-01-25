@@ -14,7 +14,7 @@
 
 &mt {
     quick-tap-ms = <150>;
-    tapping-term-ms = <2000>;
+    tapping-term-ms = <1000>;
     flavor = "tap-preferred";
 };
 
@@ -285,19 +285,19 @@
 
         raise_layer {
             bindings = <
-&mt LGUI KP_NUM  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp DOWN  &kp RIGHT  &kp PSCRN   &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &kp CLCK
-&mt LCTRL EQUAL  &kp KP_MULTIPLY  &kp KP_N5  &kp KP_N6  &kp KP_N7  &kp KP_PLUS   &kp HOME  &kp PG_DN  &kp PG_UP   &kp END            &kp INS               &mt RCTRL K_APP
-&kp LALT         &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp UP    &kp LEFT   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &kp RALT
-                                             &trans     &trans     &trans        &trans    &trans     &trans
+&none  &kp KP_SLASH     &kp KP_N7  &kp KP_N8  &kp KP_N9  &kp KP_MINUS  &kp DOWN  &kp RIGHT  &kp PSCRN   &kp C_VOLUME_UP    &kp C_BRIGHTNESS_INC  &none
+&none  &kp KP_MULTIPLY  &kp KP_N5  &kp KP_N6  &kp KP_N7  &kp KP_PLUS   &kp HOME  &kp PG_DN  &kp PG_UP   &kp END            &kp INS               &none
+&none  &kp KP_N0        &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_DOT    &kp UP    &kp LEFT   &kp C_MUTE  &kp C_VOLUME_DOWN  &kp C_BRIGHTNESS_DEC  &none
+                                   &trans     &trans     &trans        &trans    &trans     &trans
             >;
         };
 
         adjust_layer {
             bindings = <
-&bootloader  &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &bootloader
-&bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &bt BT_CLR
-&sys_reset   &none         &none         &none         &none         &none         &none         &none         &none         &none         &none         &sys_reset
-                                         &trans        &none         &trans        &none         &trans        &trans
+&none  &bootloader   &none         &none         &none         &bt BT_CLR_ALL  &bt BT_CLR_ALL  &none         &none         &none         &bootloader   &none
+&none  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_CLR      &bt BT_CLR      &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0  &none
+&none  &sys_reset    &none         &none         &none         &none           &none           &none         &none         &none         &sys_reset    &none
+                                   &trans        &none         &trans          &none           &trans        &trans
             >;
         };
     };
