@@ -14,7 +14,7 @@
 
 &mt {
     quick-tap-ms = <150>;
-    tapping-term-ms = <400>;
+    tapping-term-ms = <300>;
     flavor = "tap-preferred";
 };
 
@@ -233,7 +233,7 @@
 
         plus {
             bindings = <&kp PLUS>;
-            key-positions = <19 32>;
+            key-positions = <19 31>;
         };
 
         double_quotes_n {
