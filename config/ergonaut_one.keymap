@@ -241,12 +241,12 @@
             key-positions = <9 20>;
         };
 
-        backslash_n {
+        backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <20 7>;
         };
 
-        slash_n {
+        slash {
             bindings = <&kp SLASH>;
             key-positions = <31 20>;
         };
@@ -564,10 +564,10 @@
 
         default_layer {
             bindings = <
-&none  &tap_tap_q           &tap_tap_w            &tap_tap_e           &tap_tap_r            &tap_tap_t      &tap_tap_y         &tap_tap_u            &tap_tap_i           &tap_tap_o            &tap_tap_k1           &none
-&none  &tap_dance_a LALT 0  &tap_dance_s LCTRL 0  &tap_dance_d LGUI 0  &tap_dance_f LSHFT 0  &tap_tap_g      &tap_tap_h         &tap_dance_j RSHFT 0  &tap_dance_k RGUI 0  &tap_dance_l RCTRL 0  &tap_dance_k2 RALT 0  &none
-&none  &tap_tap_z           &tap_tap_x            &tap_tap_c           &tap_tap_v            &tap_tap_b      &tap_tap_n         &tap_tap_m            &tap_tap_k3          &tap_tap_k4           &tap_tap_comma        &none
-                                                  &lt 2 TAB            &mt LSHFT SPACE       &lt 1 QUESTION  &lt 1 EXCLAMATION  &mt RSHFT BACKSPACE   &lt 2 DOT
+&none  &kp Q       &kp W        &kp E       &kp R            &kp T           &kp Y              &kp U                &kp I       &kp O        &kp KP_N1       &none
+&none  &mt LALT A  &mt LCTRL S  &mt LGUI D  &mt LSHFT F      &kp G           &kp H              &mt RSHFT J          &mt RGUI K  &mt RCTRL L  &mt RALT KP_N2  &none
+&none  &kp Z       &kp X        &kp C       &kp V            &kp B           &kp N              &kp M                &kp KP_N3   &kp KP_N4    &tap_tap_comma  &none
+                                &lt 2 TAB   &mt LSHFT SPACE  &lt 1 QUESTION  &lt 1 EXCLAMATION  &mt RSHFT BACKSPACE  &lt 2 DOT
             >;
         };
 
