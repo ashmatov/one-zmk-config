@@ -91,19 +91,9 @@
             key-positions = <4 3 2>;
         };
 
-        backslash {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <9 10>;
-        };
-
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <21 22>;
-        };
-
-        slash {
-            bindings = <&kp SLASH>;
-            key-positions = <34 33>;
         };
 
         e {
