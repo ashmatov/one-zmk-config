@@ -231,16 +231,6 @@
             key-positions = <8 21>;
         };
 
-        single_qoute_n {
-            bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <20 33>;
-        };
-
-        grave_n {
-            bindings = <&kp GRAVE>;
-            key-positions = <9 20>;
-        };
-
         backslash {
             bindings = <&kp BACKSLASH>;
             key-positions = <20 7>;
