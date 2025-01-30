@@ -88,7 +88,7 @@
 
         semicolon {
             bindings = <&kp SEMICOLON>;
-            key-positions = <4 3 2>;
+            key-positions = <4 5>;
         };
 
         pipe {
@@ -183,27 +183,27 @@
 
         double_quotes {
             bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <10 8>;
+            key-positions = <7 20>;
         };
 
         single_qoute {
             bindings = <&kp SINGLE_QUOTE>;
-            key-positions = <20 22>;
+            key-positions = <19 32>;
         };
 
         grave {
             bindings = <&kp GRAVE>;
-            key-positions = <32 34>;
+            key-positions = <31 20>;
         };
 
         less {
             bindings = <&kp LESS_THAN>;
-            key-positions = <8 19>;
+            key-positions = <34 32>;
         };
 
         greater {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <19 32>;
+            key-positions = <10 8>;
         };
 
         equal {
@@ -226,24 +226,14 @@
             key-positions = <19 31>;
         };
 
-        double_quotes_n {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <8 21>;
-        };
-
         backslash {
             bindings = <&kp BACKSLASH>;
-            key-positions = <20 7>;
+            key-positions = <10 9>;
         };
 
         slash {
             bindings = <&kp SLASH>;
-            key-positions = <31 20>;
-        };
-
-        caret_n {
-            bindings = <&kp CARET>;
-            key-positions = <1 2>;
+            key-positions = <34 33>;
         };
     };
 
