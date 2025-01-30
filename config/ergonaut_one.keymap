@@ -98,12 +98,12 @@
 
         e {
             bindings = <&kp KP_N7>;
-            key-positions = <13 14>;
+            key-positions = <17 16>;
         };
 
         x {
             bindings = <&kp KP_N5>;
-            key-positions = <16 17>;
+            key-positions = <16 15>;
         };
 
         t {
