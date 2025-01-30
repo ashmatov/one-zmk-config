@@ -250,6 +250,21 @@
             bindings = <&kp SLASH>;
             key-positions = <31 20>;
         };
+
+        slash_n {
+            bindings = <&kp SLASH>;
+            key-positions = <33 34>;
+        };
+
+        backslash_n {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <9 10>;
+        };
+
+        caret_n {
+            bindings = <&kp CARET>;
+            key-positions = <1 2>;
+        };
     };
 
     behaviors {
