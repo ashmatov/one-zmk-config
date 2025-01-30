@@ -103,12 +103,12 @@
 
         x {
             bindings = <&kp KP_N5>;
-            key-positions = <16 15>;
+            key-positions = <16 17>;
         };
 
         t {
             bindings = <&kp KP_N6>;
-            key-positions = <16 15 14>;
+            key-positions = <14 13>;
         };
 
         dollar {
@@ -198,12 +198,12 @@
 
         less {
             bindings = <&kp LESS_THAN>;
-            key-positions = <34 32>;
+            key-positions = <31 33>;
         };
 
         greater {
             bindings = <&kp GREATER_THAN>;
-            key-positions = <10 8>;
+            key-positions = <7 9>;
         };
 
         equal {
